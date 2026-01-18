@@ -43,13 +43,23 @@ body{
     width: 100%;
 }
 @media screen and (max-width:577px){
-    .about-from {
-        width: 90%;
-    }
-    /* #input-from img {
+
+#input-from img{
     width: 200px;
     height: 100px;
-    top: 1px;
-} */
+    position: absolute;
+    top: 1px; 
+    border-radius: 10px;
+    box-shadow: 3px 1px 2px 1px;
+}
+.about-from {
+    background-color: #DDE1E7;
+    padding: 60px 20px;
+    text-align: center;
+    width: 90%;
+    height: 80vh;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px ;
+}
 
 }
